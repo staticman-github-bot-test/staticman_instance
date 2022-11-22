@@ -75,8 +75,3 @@ comments:
   # the name of the field and values are possible transformation types.
   transforms:
     email: md5
-
-  # you are going to want reCaptcha set up, but for now leave it disabled because we need the API
-  # bridge up and running in order to encrypt the secrets that go in this section
-  reCaptcha:
-    enabled: false
